@@ -1,0 +1,14 @@
+__pycache__/
+.DS_Store
+.vscode/
+
+# Large / not ours to redistribute: weights, broadcast videos, datasets, caches
+*.pt
+input_videos/
+output_videos/
+stubs/
+runs/
+training/*/
+
+# Old notebook with a hard-coded Roboflow API key (use training/train_yolo26m_1280.ipynb)
+training/football_training_yolo_26.ipynb
